@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.theme, menu);
         return super.onCreateOptionsMenu(menu);
     }
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {

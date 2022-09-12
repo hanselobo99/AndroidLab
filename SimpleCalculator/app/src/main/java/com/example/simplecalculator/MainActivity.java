@@ -34,13 +34,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calculate(View view) {
-        Bundle bundle = new Bundle();
         int no1 = Integer.parseInt(num1.getText().toString());
         int no2 = Integer.parseInt(num2.getText().toString());
 
         switch (view.getId()) {
             case R.id.add:
-
                 replaceFragment(new AdditionFragment(no1,no2), R.id.forAdd);
                 break;
             case R.id.sub:
